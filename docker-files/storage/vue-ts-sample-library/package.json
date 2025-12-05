@@ -1,0 +1,84 @@
+{
+	"name": "vue-ts-sample-library",
+	"versions": {
+		"0.0.3": {
+			"name": "vue-ts-sample-library",
+			"private": false,
+			"version": "0.0.3",
+			"type": "module",
+			"exports": {
+				".": {
+					"types": "./dist/main.d.ts",
+					"import": "./dist/vue-ts-sample-library.js",
+					"default": "./dist/vue-ts-sample-library.js"
+				}
+			},
+			"main": "./dist/vue-ts-sample-library.js",
+			"module": "./dist/vue-ts-sample-library.js",
+			"types": "./dist/main.d.ts",
+			"files": [
+				"dist"
+			],
+			"scripts": {
+				"dev": "vite",
+				"build": "vue-tsc -b ./tsconfig.lib.json && vite build",
+				"preview": "vite preview"
+			},
+			"dependencies": {
+				"vue": "^3.5.24"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/muslumozturk61/vue-ts-sample-library.git"
+			},
+			"devDependencies": {
+				"@types/node": "^24.10.1",
+				"@vitejs/plugin-vue": "^6.0.1",
+				"@vue/tsconfig": "^0.8.1",
+				"typescript": "~5.9.3",
+				"vite": "^7.2.4",
+				"vite-plugin-dts": "^4.5.4",
+				"vue-tsc": "^3.1.4"
+			},
+			"peerDependencies": {
+				"vue": "^3.5.24"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "80cf802619b80ead97b52e290a93449dc2039810",
+			"_id": "vue-ts-sample-library@0.0.3",
+			"description": "This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.",
+			"bugs": {
+				"url": "https://github.com/muslumozturk61/vue-ts-sample-library/issues"
+			},
+			"homepage": "https://github.com/muslumozturk61/vue-ts-sample-library#readme",
+			"_nodeVersion": "24.11.1",
+			"_npmVersion": "11.6.2",
+			"dist": {
+				"integrity": "sha512-ddlyEL1jPKkD4gqk/3CoX7aELGmPBaomBjEHVkEkKGDXUS/qXxNQus7pSbeVHTlM4JvrPr7zcnOSXu0Nc3Oi5w==",
+				"shasum": "18619e912b63ed2e3b8bba8e3f1b3f2e0c6d0bba",
+				"tarball": "http://localhost:4873/vue-ts-sample-library/-/vue-ts-sample-library-0.0.3.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2025-12-05T11:23:03.886Z",
+		"created": "2025-12-05T11:23:03.886Z",
+		"0.0.3": "2025-12-05T11:23:03.886Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.0.3"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"vue-ts-sample-library-0.0.3.tgz": {
+			"shasum": "18619e912b63ed2e3b8bba8e3f1b3f2e0c6d0bba",
+			"version": "0.0.3"
+		}
+	},
+	"_rev": "3-2eed67bd956b2d48",
+	"_id": "vue-ts-sample-library",
+	"readme": "# Vue 3 + TypeScript + Vite\n\nThis template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.\n\nLearn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).\n"
+}

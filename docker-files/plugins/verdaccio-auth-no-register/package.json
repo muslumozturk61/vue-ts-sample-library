@@ -1,0 +1,5 @@
+{
+  "name": "verdaccio-auth-no-register",
+  "version": "1.0.0",
+  "main": "index.js"
+}

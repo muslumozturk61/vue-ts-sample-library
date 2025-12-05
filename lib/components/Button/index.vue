@@ -1,5 +1,5 @@
 <template>
-  <button class="btn">
+  <button class="btn" @click="handleClick">
     {{ label || 'Default Button' }}
   </button>
 </template> 
@@ -8,4 +8,13 @@
  defineProps<{
   label?: string;
 }>();
+
+const emit = defineEmits<{
+  (e: 'click'): void;
+}>();
+
+const handleClick = () => {
+    emit('click');
+  
+};
 </script>
